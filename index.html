@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-Do List</h1>
+
+      <div class="infos">
+        <div class="toDoListContainer">
+          <div class="entrada">
+            <input type="text" placeholder="Digite sua tarefa" id="taskInput" />
+            <button id="addButton">Adicionar</button>
+          </div>
+          <div class="taskContainer"></div>
+        </div>
+      </div>
+      <div class="contador">
+        <h3>Total de tarefas à fazer:</h3>
+        <h3 id="taskCount">0</h3>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
